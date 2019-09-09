@@ -1,0 +1,58 @@
+/* ============================================= */
+/*               Variables                       */
+/* ============================================= */
+
+// color palette
+
+$color-white: #fff;
+$color-gray-medium: #ccc;
+$color-gray-medium-dark: #777;
+$color-light-blue: #51ddfc;
+$color-light-green: #58e1c1;
+$color-pastel-green: #63cc82;
+$color-pastel-red: #e4757a;
+$color-pastel-orange: #fd7856;
+$color-pastel-purple: #927bc1;
+
+// assign theme colors
+
+$theme-color-body-background: $color-white;
+$theme-color-body-font: $color-gray-medium-dark;
+$theme-color-primary: $color-light-green;
+$theme-color-secondary: $color-light-blue;
+$theme-color-default: $theme-color-secondary;
+$theme-color-success: $color-pastel-green;
+$theme-color-error: $color-pastel-red;
+$theme-color-warning: $color-pastel-orange;
+$theme-color-info: $color-pastel-purple;
+$theme-color-image-frame: $color-gray-medium;
+
+$column-colors:
+    $color-pastel-purple,
+    $color-pastel-orange,
+    #deb2ee,
+    #7ee6fd,
+    #88d9a0,
+    #4da2bb,
+    #ec9fa3,
+    #fd9f85,
+    $color-pastel-red,
+    $color-pastel-green,
+    $theme-color-secondary,
+    #80e8d1;
+
+$theme-color-lighten-amount: 15%;
+
+// assign other theme values
+
+$theme-font-stack-primary: 'Lato', sans-serif;
+
+$number-of-columns: 12;
+$theme-breakpoint: 768px;
+
+$theme-transition-duration: .2s;
+$theme-border-radius: 5px;
+$theme-standard-spacing: 10px;
+
+
+

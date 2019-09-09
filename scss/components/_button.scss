@@ -1,0 +1,33 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+$buttons:
+    'default' $theme-color-default,
+    'error' $theme-color-error,
+    'info' $theme-color-info,
+    'success' $theme-color-success,
+    'warning' $theme-color-warning;
+
+// make this a function
+@each $name, $color in $buttons {
+  .#{$name} {
+    background-color: $color;
+
+    &:hover {
+      background-color: lighten($color, $theme-color-lighten-amount);
+    }
+  }
+}
+
+.btn {
+  border: none;
+  border-radius: $theme-border-radius;
+  color: $theme-color-body-background;
+  cursor: pointer;
+  margin-top: 15px;
+  padding: $theme-standard-spacing 0;
+  text-transform: uppercase;
+  transition: background-color $theme-transition-duration;
+  width: 100%;
+}

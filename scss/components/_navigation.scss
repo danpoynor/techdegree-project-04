@@ -1,0 +1,27 @@
+/* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+
+.nav {
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+  padding-left: 0;
+  
+  &-link {
+    border-radius: $theme-border-radius;
+    display: block;
+    padding: $theme-standard-spacing 0;
+    text-align: center;
+    transition-duration: $theme-transition-duration;
+    transition-property: background-color, color;
+    transition-timing-function: ease-in-out;
+    width: 100%;
+    
+    &:hover {
+      background-color: $theme-color-primary;
+      color: $theme-color-body-background;
+      text-decoration: none;
+    }
+  }
+}
